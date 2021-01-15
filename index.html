@@ -162,38 +162,62 @@
     </p>
 
 </div>
+   <svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
    </li>
    <li>Github Commands</li>
     </ul>
-  <svg width="100" height="100">
-  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-  
-</svg>
+  <h2>
+    Survey
+  </h2>
 <form method="get">
-  <input type="radio" id="male" name="gender" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="female" checked="checked">
-  <label for="female">Female</label><br>
+  <label><b>Best Marvel Movie</b></label><br>
+  <input type="radio" id="A1" name="A1" value="A1">
+  <label for="A1">Avengers</label><br>
+  <input type="radio" id="endgame" name="endgame" value="endgame" checked="checked">
+  <label for="endgame">Avengers: Endgame</label><br>
   <input type="radio" id="other" name="gender" value="other">
   <label for="other">Other</label><br><br>
   <input type="submit" value="Submit">
-</form>
-  <form>
-  <label for="cars">Choose a car:</label>
-  <select name="cars" id="cars">
-    <optgroup label="Swedish Cars">
-      <option value="volvo">Volvo</option>
-      <option value="saab">Saab</option>
+<br>
+  <br>
+  <label><b>Best Star Wars Movie</b></label><br>
+  <label for="sw">Choose the best "Star Wars" Movie:</label>
+  <select name="sw" id="sw">
+    <optgroup label="Original Triology">
+      <option value="4">Episode IV – A New Hope</option>
+      <option value="5">Episode V – The Empire Strikes Back</option>
+      <option value="6">Episode VI – Return of the Jedi</option>
     </optgroup>
-    <optgroup label="German Cars">
-      <option value="mercedes">Mercedes</option>
-      <option value="audi">Audi</option>
+    <optgroup label="Prequel Trilogy">
+      <option value="1">Episode I – The Phantom Menace</option>
+      <option value="2">Episode II – Attack of the Clones</option>
+      <option value="3">Episode III – Revenge of the Sith</option>
+    </optgroup>
+    <optgroup label="Prequel Trilogy">
+      <option value="7">Episode VII – The Force Awakens</option>
+      <option value="8">Episode VIII – The Last Jedi</option>
+      <option value="9">Episode IX – The Rise of Skywalker</option>
     </optgroup>
   </select>
   <br><br>
   <input type="submit" value="Submit">
+  <br><br>
+  <label><b>Best Programming Language</b></label><br>
+  <label for="pl">Choose your favorite Programming language:</label><br>
+  <input list="pl" name="pl" id="pl">
+  <datalist id="pl">
+    <option value="C/C++">
+    <option value="Java">
+    <option value="Java Script">
+    <option value="CSS">
+    <option value="Python">
+    <option value="Others">
+  </datalist>
+  <input type="submit">
      <fieldset>
-  <legend>Personalia:</legend>
+  <legend>Personal Information:</legend>
   <label for="fname">First name:</label>
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Last name:</label>
@@ -205,22 +229,9 @@
   <input type="submit" value="Submit">
  </fieldset>
     
-    <label for="browser">Choose your browser from the list:</label>
-  <input list="browsers" name="browser" id="browser">
-  <datalist id="browsers">
-    <option value="Edge">
-    <option value="Firefox">
-    <option value="Chrome">
-    <option value="Opera">
-    <option value="Safari">
-  </datalist>
-  <input type="submit">
+    
     
 </form>
-  <template>
-  <h2>Flower</h2>
-  <img src="img_white_flower.jpg" width="214" height="204">
-</template>
 </main>
   <footer>
   <p>Author: Yijie Ruan<br>
