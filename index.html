@@ -127,9 +127,17 @@
 </picture></li>
       <li><template>
   <h2>...</h2>
+        <button onclick="showContent()">Press Me</button>
   <img src="https://images-na.ssl-images-amazon.com/images/I/81QCz6y7ZBL._AC_SL1500_.jpg" width="214" height="204">
 </template>
         </li>
+      <script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
       <li><b>"Cells at work" is a "have to watch" anime. It is awesome</b></li>
       <li><div style="width:350px;overflow:auto">
 <pre><b>"Let's see the same thing in fixed width: Cells at work" is a "have to watch" anime. It is awesome</b></pre>
@@ -177,8 +185,8 @@
 <script>
 var can = document.getElementById("Canvas");
 var c = can.getContext("2d");
-ctx.fillStyle = "#000080";
-ctx.fillRect(0, 0, 100, 100);
+c.fillStyle = "#000080";
+c.fillRect(0, 0, 100, 100);
 </script>
    </li>
    <li>Github Commands</li>
