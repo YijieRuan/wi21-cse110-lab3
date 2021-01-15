@@ -81,10 +81,10 @@
       <li>The game has its magic even though I stayed in Gold for five years.</li>
       <li><video width="320" height="240" controls>
   <source src="League.webm">
-  Your browser does not support the video tag.
+
 </video></li>
 <li><audio controls src="t-rex-roar.mp3">
-  Your browser does not support the audio tag.
+
 </audio></li>
       <li><strong> <i> Let’s see if the image works</i></strong></li>
       
@@ -96,19 +96,7 @@
     </ul>
       </li>
      <li>Anime
-       <h2>...</h2>
-  <button onclick="showContent()">Press Me</button>
-<template>
-  
-  <img src="https://images-na.ssl-images-amazon.com/images/I/81QCz6y7ZBL._AC_SL1500_.jpg" width="214" height="204">
-</template>
        
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
 </script>
     <ul>
       <li><table>
@@ -298,5 +286,18 @@ c.fillRect(0, 0, 100, 100);
   <p>Author: Yijie Ruan<br>
   <a href="https://yijieruan.github.io/">https://yijieruan.github.io/</a></p>
 </footer>
+<h2>...</h2>
+  <button onclick="showContent()">Press Me</button>
+<template>
+  
+  <img src="https://images-na.ssl-images-amazon.com/images/I/81QCz6y7ZBL._AC_SL1500_.jpg" width="214" height="204">
+</template>
+       
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
   </body>
   </html>
