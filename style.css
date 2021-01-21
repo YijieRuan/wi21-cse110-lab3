@@ -134,3 +134,22 @@
     margin: auto;
     border: 3px solid #73AD21;
   }
+
+  h2.pos_right {
+    position: relative;
+    left: 50px;
+  }
+
+  #thing {
+    position: absolute;
+    border: 1px solid red;
+    top: 70px;
+    right: 15px;
+  }
+
+  #thing2 {
+    position: static;
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+  }
