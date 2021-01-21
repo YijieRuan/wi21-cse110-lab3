@@ -26,3 +26,13 @@
     background: yellow;
   }
 
+  /*pseudo selector*/
+  pi {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  div:hover pi {
+    display: block;
+  }
