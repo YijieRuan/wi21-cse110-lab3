@@ -1,1 +1,17 @@
+/* make the text center and color black*/
+.center {
+    text-align: center;
+    color: black;
+  }
 
+  /*make a paragraph in red and center*/
+  #para1 {
+    text-align: center;
+    color: red;
+  }
+ /*make background aliceblue*/
+  * {
+    background-color: aliceblue;
+  }
+
+  
