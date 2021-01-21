@@ -20,5 +20,9 @@
     background-color: DarkSalmon;
     color: white;
   }
-  
-  
+
+/*the attribute selector*/
+  [att$="test"] {
+    background: yellow;
+  }
+
