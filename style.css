@@ -36,3 +36,34 @@
   div:hover pi {
     display: block;
   }
+
+  /*selector list*/
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  /*descendant combinator*/
+  form label {
+    background-color: yellow;
+  }
+
+  /*child Selector*/
+  ol li {
+    background-color: white;
+  }
+
+  /*adjacent sibling selector*/
+  label ~ h2 {
+    text-align: center;
+  }
+
+  div + p {
+    background-color: yellow;
+    text-align: center;
+    text-shadow: yellowgreen;
+    text-decoration: line-through;
+  }
+
+  p.delete {
+    text-decoration: line-through;
+  }
