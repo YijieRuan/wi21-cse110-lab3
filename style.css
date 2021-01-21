@@ -14,4 +14,10 @@
     background-color: aliceblue;
   }
 
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
   
