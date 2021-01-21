@@ -67,3 +67,17 @@
   p.delete {
     text-decoration: line-through;
   }
+
+  /*border */
+  h1 {
+    border-bottom-style: dotted;
+    
+  }
+
+  h2{
+    border-style: solid;
+    border-color: black blueviolet;
+    border-width: thin medium thick;
+    padding: 10px;
+    border-radius: 25px;
+  }
