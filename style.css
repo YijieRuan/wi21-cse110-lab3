@@ -216,3 +216,13 @@
     width: 100px;
     font-size: 30px;
   }
+
+  
+  @media screen and (min-width: 700px) {
+    footer {
+      text-align: start;
+      padding: 5px;
+      background-color: aliceblue;
+      color: black;
+    }
+  }
