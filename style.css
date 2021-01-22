@@ -173,3 +173,23 @@
   a:active {
     color: blue;
   }
+
+  /*flexbox*/
+  .container {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap-reverse;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  
+  .container>div {
+    background-color: lightgray;
+    color: black;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
